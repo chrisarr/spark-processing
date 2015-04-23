@@ -110,7 +110,7 @@ void draw() {
 
 1. This helper function uses Java's RunTime to exec() the Spark API cURL request.
 2. Read up on the Spark API: http://docs.spark.io/api/
-3. Trust the Java part just works. Details: http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html
+3. Trust the Java part just works. Details: http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html & http://stackoverflow.com/questions/12453477/java-using-curl-with-runtime-getruntime-exec
 4. The order of the arguments must be adhered to, but it is structurally different than how you would construct the API request you might pass through cURL. Again, for sanity.
 
 ```java
