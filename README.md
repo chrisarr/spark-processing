@@ -1,9 +1,8 @@
 #Spark Core and Processing
 
-Wednesday, April 22, 2015
-9:58 PM
-
 Working with Spark, the Spark API, and Processing is not as well documented as one might hope. Here are the steps I took to get my project working, with some helper functions and code that should apply to many more uses than my own.
+
+You will find demo code for Processing and Spark included in the repo. Also, the p5-to-spark Processing helper function is separated out from the demo code, should you only need it!
 
 ###Setting up Spark
 
@@ -17,10 +16,11 @@ http://docs.spark.io/assets/images/breadboard-one-led.jpg
 
 ###Writing your Spark code
 
-	1. Most everything will look and function like Arduino C++ code. 
-	2. Let's write a simple application to allow you to toggle an LED on and off.
-	3. With Sparky powered on (plugged in), click the lightning bolt icon to flash it.
-	4. Flash is done as soon as the onboard LED goes back to pulsing cyan.
+1. Most everything will look and function like Arduino C++ code. 
+2. Let's write a simple application to allow you to toggle an LED on and off.
+3. With Sparky powered on (plugged in), click the lightning bolt icon to flash it.
+4. Flash is done as soon as the onboard LED goes back to pulsing cyan.
+
 ```cpp	
 	int ledPin = D0;
 	
